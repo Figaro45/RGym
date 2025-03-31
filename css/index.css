@@ -6,7 +6,7 @@
 
 .header {
   width: 100%;
-  height: 850px;
+  height: 965px;
   position: relative;
   z-index: 17;
   background: linear-gradient(0deg, rgb(0, 0, 0) 0%, #000000 100%);
@@ -273,4 +273,56 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.h3_ultimate {
+  margin-top: 0px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.section_two {
+  margin-top: 116px;
+}
+
+.container_section_two {
+  display: flex;
+  width: 1300px;
+  margin: 0px auto;
+  height: 386px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.block_p_line > p {
+  margin-top: 0px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: -0.05em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.block_p_line {
+  display: flex;
+  align-items: center;
+  width: 699px;
+}
+
+.line_img {
+  margin-right: -14px;
+  margin-top: -2px;
+  transform: rotate(90deg);
+  border: 2px solid #e74c3c;
+  width: 60px;
+  height: 0px;
+}
+
+.block_h3 {
+  width: 500px;
 }/*# sourceMappingURL=index.css.map */
