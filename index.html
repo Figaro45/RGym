@@ -12,6 +12,7 @@
         rel="stylesheet">
     <link rel="preload stylesheet" href="css/index.css" type="text/css" as="style">
     <link rel="preload stylesheet" href="css/media.css" type="text/css" as="style">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body class="body">
@@ -48,6 +49,35 @@
             </div>
         </div>
     </header>
+
+    <!-- слайд  секция-->
+    <section class="section" id="section">
+        <div class="container_section">
+            <div class="block_section">
+                <h3>Популярное упражнение</h3>
+                <p>Благодарим вас за проявленный интерес к нашей компании и добро пожаловать в нашу команду.</p>
+                <img src="img/Слайд1/линия_оранжевая.webp" alt="линия" class="img_line_orange" loading="lazy">
+            </div>
+        </div>
+        <!-- Слайд -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="block_img">
+                        <img src="img/Слайд1/01.webp" alt="1" loading="lazy" class="img_Slaid">
+                        <img src="img/Слайд1/02.webp" alt="2" loading="lazy" class="img_Slaid2">
+                        <img src="img/Слайд1/03.webp" alt="3" loading="lazy" class="img_Slaid">
+                        <img src="img/Слайд1/04.webp" alt="4" loading="lazy" class="img_Slaid2">
+                        <img src="img/Слайд1/05.webp" alt="5" loading="lazy" class="img_Slaid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 
 </html>
