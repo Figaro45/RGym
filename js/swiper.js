@@ -33,3 +33,39 @@ const swiper = new Swiper('.swiper', {
         },
     }
 });
+
+const swiper_two = new Swiper('.swiper_Two', {
+    slidesPerView: 1,
+    breakpoints: {
+        1500: {
+            slidesPerView: 1,
+        },
+        1300: {
+            slidesPerView: 0.9,
+        },
+        1200: {
+            slidesPerView: 0.8,
+        },
+        1100: {
+            slidesPerView: 0.7,
+        },
+        1000: {
+            slidesPerView: 0.6,
+        },
+        900: {
+            slidesPerView: 0.7,
+        },
+        800: {
+            slidesPerView: 0.6,
+        },
+        700: {
+            slidesPerView: 0.7,
+        },
+        600: {
+            slidesPerView: 0.6,
+        },
+        300: {
+            slidesPerView: 0.2,
+        },
+    }
+});
