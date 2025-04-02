@@ -64,8 +64,11 @@ const swiper_two = new Swiper('.swiper_Two', {
         600: {
             slidesPerView: 0.6,
         },
+        400: {
+            slidesPerView: 0.5,
+        },
         300: {
-            slidesPerView: 0.2,
+            slidesPerView: 0.3,
         },
     }
 });
