@@ -453,7 +453,7 @@
 .section_footer {
   position: relative;
   width: 100%;
-  height: 1042px;
+  height: 900px;
 }
 
 .met_footer {
@@ -544,4 +544,129 @@
   margin: 0px auto;
   height: 850px;
   justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 562px;
+}
+
+.footer_block_one {
+  width: 379px;
+  height: 167px;
+}
+
+.footer_block_one > h4 {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #e74c3c;
+}
+
+.footer_block_one > h4 > span {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.footer_block_one > p {
+  width: 100%;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: -0.05em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.block_info {
+  margin-top: 71px;
+  width: 182px;
+  height: 234px;
+}
+
+.block_info > h4 {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.ul_footer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.Ul_li {
+  width: 100%;
+  margin-bottom: 21px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.block_follower {
+  width: 160px;
+  height: 127px;
+  margin-bottom: 41px;
+}
+
+.block_follower > h4 {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125%;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.img_f_T_I {
+  cursor: pointer;
+  width: 43px;
+  margin-right: 5px;
+}
+
+.RGym_h5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.span_R {
+  color: #e74c3c;
+}
+
+.block_copy {
+  display: none;
+}
+
+.block_flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
 }/*# sourceMappingURL=index.css.map */
