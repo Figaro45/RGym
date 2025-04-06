@@ -107,7 +107,7 @@
     position: absolute;
     height: 10%;
     width: 100%;
-    translate: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     background-color: #fff;
   }
   .menu_burger::before,
@@ -115,14 +115,15 @@
     content: "";
   }
   .menu_burger::before {
-    top: 0px;
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
   }
   .menu_burger::after {
-    bottom: 0px;
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
   }
   .menu_burger span {
-    top: 50%;
-    transform: scale(1) translate(0px, -50%);
+    transform: scale(0) translate(0px, -50%);
   }
   .menu_mar_left {
     z-index: 12;
@@ -139,7 +140,7 @@
     position: absolute;
     height: 10%;
     width: 100%;
-    translate: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
     background-color: #fff;
   }
   .menu_mar_left::before,
@@ -187,6 +188,7 @@
     height: 100%;
     position: fixed;
     background-color: #050505;
+    transition: left 0.3s ease 0s;
     overflow: auto;
   }
   .black_width_two._active {
