@@ -409,6 +409,13 @@
   }
 }
 @media (max-width: 700px) {
+  .block_sending > h2 {
+    font-size: 18px;
+  }
+  .block_sending {
+    width: 400px;
+    height: 200px;
+  }
   .block_time_logo {
     width: 100px;
   }
@@ -612,6 +619,17 @@
   }
 }
 @media (max-width: 450px) {
+  .close_img {
+    top: 11px;
+    right: 10px;
+  }
+  .block_sending {
+    width: 300px;
+    height: 150px;
+  }
+  .block_sending > h2 {
+    font-size: 15px;
+  }
   .menu_burger {
     margin-right: 25px;
   }
